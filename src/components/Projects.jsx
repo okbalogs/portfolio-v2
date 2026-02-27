@@ -16,10 +16,9 @@ const projectsData = [
     },
     {
         title: 'Chuks Kitchen',
-        description: 'Coming Soon',
+        description: 'A frontend web application for a Nigerian food ordering service, built as a Figma design-to-code implementation.',
         tags: ['React', 'CSS3'],
         image: home,
-        badge: 'Coming Soon',
         demoUrl: 'https://chuks-kitchen.vercel.app',
     },
     {

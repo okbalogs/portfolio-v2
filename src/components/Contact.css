@@ -43,7 +43,7 @@
 
 .contact-detail svg {
     font-size: 1.15rem;
-    color: #00ff88;
+    color: #a855f7;
     flex-shrink: 0;
 }
 
@@ -74,7 +74,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #00ff88;
+    border-color: #a855f7;
 }
 
 .contact-form textarea {
@@ -90,8 +90,8 @@
     font-size: 0.9rem;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    color: #00ff88;
-    border: 2px solid #00ff88;
+    color: #a855f7;
+    border: 2px solid #a855f7;
     border-radius: 6px;
     background: transparent;
     cursor: pointer;
@@ -100,8 +100,8 @@
 }
 
 .contact-form__btn:hover {
-    background: rgba(0, 255, 136, 0.12);
-    box-shadow: 0 0 20px rgba(0, 255, 136, 0.15);
+    background: rgba(168, 85, 247, 0.12);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
     transform: translateY(-2px);
 }
 
@@ -112,8 +112,8 @@
 }
 
 .contact-form__btn--success {
-    border-color: #00ff88;
-    background: rgba(0, 255, 136, 0.1);
+    border-color: #a855f7;
+    background: rgba(168, 85, 247, 0.1);
 }
 
 .contact-form__btn--error {

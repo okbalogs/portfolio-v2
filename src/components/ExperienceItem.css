@@ -12,14 +12,14 @@
     height: 16px;
     border-radius: 50%;
     background: #0a0a0a;
-    border: 2px solid #00ff88;
+    border: 2px solid #a855f7;
     z-index: 2;
     transition: all 0.3s ease;
 }
 
 .experience-item:hover .experience-item__dot {
-    background: #00ff88;
-    box-shadow: 0 0 12px rgba(0, 255, 136, 0.4);
+    background: #a855f7;
+    box-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
 }
 
 .experience-item__line {
@@ -44,7 +44,7 @@
 }
 
 .experience-item__card:hover {
-    border-color: rgba(0, 255, 136, 0.25);
+    border-color: rgba(168, 85, 247, 0.25);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -52,7 +52,7 @@
     display: inline-block;
     font-family: 'Fira Code', 'JetBrains Mono', monospace;
     font-size: 0.82rem;
-    color: #00ff88;
+    color: #a855f7;
     margin-bottom: 0.6rem;
     letter-spacing: 0.3px;
 }
@@ -91,15 +91,15 @@
 .experience-item__tech-tag {
     font-family: 'Fira Code', 'JetBrains Mono', monospace;
     font-size: 0.7rem;
-    color: #64ffda;
+    color: #c084fc;
     padding: 3px 8px;
-    background: rgba(100, 255, 218, 0.08);
+    background: rgba(192, 132, 252, 0.08);
     border-radius: 4px;
     transition: all 0.25s ease;
 }
 
 .experience-item__card:hover .experience-item__tech-tag {
-    background: rgba(100, 255, 218, 0.14);
+    background: rgba(192, 132, 252, 0.14);
 }
 
 @media (max-width: 768px) {

@@ -33,7 +33,7 @@
 }
 
 .nav-logo .logo-accent {
-  color: #00ff88;
+  color: #a855f7;
   position: relative;
 }
 
@@ -68,13 +68,13 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #00ff88;
+  background: #a855f7;
   transition: width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 1px;
 }
 
 .nav-links li a:hover {
-  color: #00ff88;
+  color: #a855f7;
 }
 
 .nav-links li a:hover::after {
@@ -89,8 +89,8 @@
   font-size: 0.85rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #00ff88;
-  border: 1.5px solid #00ff88;
+  color: #a855f7;
+  border: 1.5px solid #a855f7;
   border:5px;
   border-radius: 6px;
   background: transparent;
@@ -100,8 +100,8 @@
 }
 
 .nav-cta:hover {
-  background: rgba(0, 255, 136, 0.12);
-  box-shadow: 0 0 20px rgba(0, 255, 136, 0.15);
+  background: rgba(168, 85, 247, 0.12);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
   transform: translateY(-2px);
 }
 

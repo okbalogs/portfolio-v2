@@ -15,7 +15,7 @@
     right: -10%;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(0, 255, 136, 0.12) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.12) 0%, transparent 70%);
     z-index: 0;
     filter: blur(60px);
     pointer-events: none;
@@ -28,7 +28,7 @@
     left: -5%;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(100, 255, 218, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(192, 132, 252, 0.06) 0%, transparent 70%);
     z-index: 0;
     filter: blur(50px);
     pointer-events: none;
@@ -43,7 +43,7 @@
 .hero__subtitle {
     font-family: 'Outfit', sans-serif;
     font-size: 1.15rem;
-    color: #00ff88;
+    color: #a855f7;
     margin-bottom: 1rem;
     letter-spacing: 0.5px;
 }
@@ -61,7 +61,7 @@
 }
 
 .hero__title .highlight {
-    -webkit-text-fill-color: #00ff88;
+    -webkit-text-fill-color: #a855f7;
 }
 
 .hero__role {
@@ -81,7 +81,7 @@
 }
 
 .hero__role .text-type__cursor {
-    color: #00ff88;
+    color: #a855f7;
 }
 
 .hero__description {
@@ -108,8 +108,8 @@
     font-size: 0.9rem;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    color: #00ff88;
-    border: 2px solid #00ff88;
+    color: #a855f7;
+    border: 2px solid #a855f7;
     border-radius: 6px;
     background: transparent;
     cursor: pointer;
@@ -118,8 +118,8 @@
 }
 
 .hero__btn-primary:hover {
-    background: rgba(0, 255, 136, 0.12);
-    box-shadow: 0 0 24px rgba(0, 255, 136, 0.18);
+    background: rgba(168, 85, 247, 0.12);
+    box-shadow: 0 0 24px rgba(168, 85, 247, 0.18);
     transform: translateY(-3px);
 }
 
@@ -140,7 +140,7 @@
 }
 
 .hero__btn-secondary:hover {
-    color: #00ff88;
+    color: #a855f7;
 }
 
 .hero__socials {
@@ -155,7 +155,7 @@
 }
 
 .hero__socials a:hover {
-    color: #00ff88;
+    color: #a855f7;
     transform: translateY(-3px);
 }
 
@@ -184,7 +184,7 @@
 
 .code-block-visual:hover {
     transform: perspective(800px) rotateY(0) rotateX(0);
-    border-color: rgba(0, 255, 136, 0.3);
+    border-color: rgba(168, 85, 247, 0.3);
 }
 
 .code-block-visual .code-keyword {

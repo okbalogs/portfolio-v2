@@ -5,12 +5,12 @@ const theme = {
     surfaceLight: '#1e1e1e',
     surfaceHover: '#222222',
 
-    primary: '#00ff88',
-    primaryMuted: '#00cc6a',
-    primaryGlow: 'rgba(0, 255, 136, 0.15)',
-    primaryGlowStrong: 'rgba(0, 255, 136, 0.25)',
+    primary: '#a855f7',
+    primaryMuted: '#7c3aed',
+    primaryGlow: 'rgba(168, 85, 247, 0.15)',
+    primaryGlowStrong: 'rgba(168, 85, 247, 0.25)',
 
-    secondary: '#64ffda',
+    secondary: '#c084fc',
 
     textPrimary: '#ffffff',
     textBody: '#e0e0e0',
@@ -19,11 +19,11 @@ const theme = {
 
     border: 'rgba(255, 255, 255, 0.06)',
     borderLight: 'rgba(255, 255, 255, 0.1)',
-    borderHover: 'rgba(0, 255, 136, 0.3)',
+    borderHover: 'rgba(168, 85, 247, 0.3)',
 
     shadowCard: '0 4px 24px rgba(0, 0, 0, 0.3)',
     shadowCardHover: '0 20px 40px rgba(0, 0, 0, 0.5)',
-    shadowGlow: '0 0 20px rgba(0, 255, 136, 0.2)',
+    shadowGlow: '0 0 20px rgba(168, 85, 247, 0.2)',
 
     fontHeading: "'Outfit', sans-serif",
     fontBody: "'Inter', sans-serif",
@@ -50,7 +50,7 @@ const theme = {
     },
 
     gradientHeading: 'linear-gradient(to right, #ffffff, #a5a5a5)',
-    gradientPrimary: 'linear-gradient(135deg, #00ff88, #64ffda)',
+    gradientPrimary: 'linear-gradient(135deg, #a855f7, #c084fc)',
     gradientDark: 'linear-gradient(180deg, #0a0a0a 0%, #111111 100%)',
 };
 
