@@ -1,0 +1,117 @@
+.experience-item {
+    padding-left: 48px;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.experience-item__dot {
+    position: absolute;
+    left: 12px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #0a0a0a;
+    border: 2px solid #00ff88;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.experience-item:hover .experience-item__dot {
+    background: #00ff88;
+    box-shadow: 0 0 12px rgba(0, 255, 136, 0.4);
+}
+
+.experience-item__line {
+    position: absolute;
+    left: 19px;
+    top: 22px;
+    bottom: -2.5rem;
+    width: 2px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.experience-item:last-child .experience-item__line {
+    display: none;
+}
+
+.experience-item__card {
+    background: #171717;
+    padding: 1.75rem 2rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.experience-item__card:hover {
+    border-color: rgba(0, 255, 136, 0.25);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.experience-item__date {
+    display: inline-block;
+    font-family: 'Fira Code', 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    color: #00ff88;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.3px;
+}
+
+.experience-item__role {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.25rem;
+}
+
+.experience-item__company {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #e0e0e0;
+    margin-bottom: 0.75rem;
+}
+
+.experience-item__description {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #a0a0a0;
+    margin-bottom: 0;
+}
+
+.experience-item__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 1rem;
+}
+
+.experience-item__tech-tag {
+    font-family: 'Fira Code', 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: #64ffda;
+    padding: 3px 8px;
+    background: rgba(100, 255, 218, 0.08);
+    border-radius: 4px;
+    transition: all 0.25s ease;
+}
+
+.experience-item__card:hover .experience-item__tech-tag {
+    background: rgba(100, 255, 218, 0.14);
+}
+
+@media (max-width: 768px) {
+    .experience-item {
+        padding-left: 40px;
+    }
+
+    .experience-item__card {
+        padding: 1.25rem 1.5rem;
+    }
+
+    .experience-item__role {
+        font-size: 1.1rem;
+    }
+}

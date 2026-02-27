@@ -1,0 +1,16 @@
+.site-footer {
+    text-align: center;
+    padding: 2rem 10%;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.site-footer p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    color: #a0a0a0;
+}
+
+.site-footer .footer-heart {
+    color: #00ff88;
+    margin: 0 3px;
+}
