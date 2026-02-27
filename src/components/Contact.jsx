@@ -11,7 +11,7 @@ const Contact = () => {
         e.preventDefault();
         const form = formRef.current;
         const formData = new FormData(form);
-        formData.append('access_key', '6d149651-846e-4742-9b89-3560c64e3982');
+        formData.append('access_key', import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
 
         setBtnState({ text: 'Sending...', cls: '' });
 
