@@ -1,5 +1,4 @@
 import ProjectCard from './ProjectCard';
-//import dula from '../assets/images/dula.png';
 import home from '../assets/images/home.png';
 import vault from '../assets/images/vault.png';
 
@@ -8,8 +7,6 @@ const projectsData = [
         title: 'Dula Lerona - Frozen Store',
         description:
             'Coming Soon.',
-        //tags: ['React', 'CSS3'],
-        //image: dula,
         badge: 'Coming Soon',
         bgGradient: 'linear-gradient(135deg, #1e1e2f 0%, #4facfe 100%)',
         demoUrl: '#',

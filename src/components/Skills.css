@@ -2,59 +2,91 @@
     padding: 6rem 10%;
 }
 
-.skills-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 2rem;
+.skills-grid-all {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
 }
 
-.skill-category {
+.skill-group-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #a855f7;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.skill-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.8rem;
+}
+
+.skill-item {
     background: #171717;
-    padding: 2rem;
-    border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.1rem 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    overflow: hidden;
     transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.skill-category:hover {
-    transform: translateY(-5px);
+.skill-item:hover {
     border-color: rgba(168, 85, 247, 0.3);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transform: translateX(6px);
+    background: #1e1e1e;
 }
 
-.skill-category__title {
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #a855f7;
-    margin-bottom: 1.25rem;
-}
-
-.skill-tags {
+.skill-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(168, 85, 247, 0.1);
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.65rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    color: #c084fc;
+    flex-shrink: 0;
+    transition: all 0.35s ease;
 }
 
-.skill-tag {
+.skill-item:hover .skill-icon {
+    background: linear-gradient(135deg, #a855f7, #c084fc);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.skill-name {
     font-family: 'Inter', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 600;
     color: #e0e0e0;
-    padding: 0.45rem 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 20px;
-    transition: all 0.3s ease;
+    flex: 1;
 }
 
-.skill-tag:hover {
-    background: #a855f7;
-    color: #0a0a0a;
-    transform: scale(1.05);
+.skill-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.skill-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #a855f7, #c084fc);
+    border-radius: 0 2px 2px 0;
 }
 
 @media (max-width: 768px) {
-    .skills-container {
+    .skills-grid-all {
         grid-template-columns: 1fr;
     }
 }

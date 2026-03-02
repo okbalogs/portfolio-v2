@@ -37,7 +37,7 @@ const Navbar = () => {
                 transition={{ duration: 0.6, ease: [0.645, 0.045, 0.355, 1] }}
             >
                 <a href="#home" className="nav-logo" onClick={closeMenu}>
-                    CS.<span className="logo-accent">Dev</span>
+                    <span className="logo-accent">{'<'}</span> BO <span className="logo-accent">{'/>'}</span>
                 </a>
 
                 <ul className={`nav-links${menuOpen ? ' open' : ''}`}>
