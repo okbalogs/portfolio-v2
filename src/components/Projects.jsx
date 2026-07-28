@@ -4,6 +4,13 @@ import vault from '../assets/images/vault.png';
 
 const projectsData = [
     {
+        title: '4H Devotional',
+        description: 'Engage with God through the ECWA 4H framework: Head, Heart, Hand, Help. A digital sanctuary for your daily selah.',
+        tags: ['Next.js', 'React'],
+        bgGradient: 'linear-gradient(135deg, #1e1e2f 0%, #4facfe 100%)',
+        demoUrl: 'https://4h-devotional.vercel.app',
+    },
+    {
         title: 'Dula Lerona - Frozen Store',
         description:
             'Coming Soon.',
